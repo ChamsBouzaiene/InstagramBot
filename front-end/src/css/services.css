@@ -1,0 +1,122 @@
+.heretotest {
+  height: 370vh;
+  width: 74%;
+  margin: 3vh auto 3vh auto;
+  background-color: rgba(255, 255, 255, 0.74);
+  padding: 3% 3%;
+  border-radius: 1em;
+  box-shadow: 2px 3px 10px 2px rgba(27, 6, 6, 0.41);
+}
+
+.logocontainer {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  filter: drop-shadow(3px 3px 5px #222);
+}
+
+.reviews {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.personal-review {
+  width: 25%;
+  height: 50vh;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px #222;
+  text-align: center;
+  padding: 3%;
+}
+
+.personal-review p {
+  text-align: justify;
+}
+
+.personal-review h3 {
+  font-size: 1.5em;
+}
+
+.imageContainer {
+  box-shadow: 1px 2px 5px #222;
+  margin: 1vh auto 2vh auto;
+  opacity: 0.9;
+  width: 32%;
+  height: 12vh;
+  background-size: cover;
+  border-radius: 100px;
+}
+
+.img1 {
+  background-image: url("http://ste.india.com/sites/default/files/2017/03/23/580730-230317-gshow-02.jpg");
+}
+
+.img2 {
+  background-image: url("https://78.media.tumblr.com/6d7759eef1715e019ddcd1ca2bd56acd/tumblr_ofbi0gut4K1rq81eho1_1280.jpg");
+}
+
+.img3 {
+  background-image: url("https://static1.squarespace.com/static/5a3f6a88be42d6fb5ca8edfb/5a682a7c51a58468417dcbde/5b7c8ac6b4d5027e983c89d4/1534888653949/?format=300w");
+}
+
+.reviewsContainer h2 {
+  text-align: center;
+  font-size: 2em;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  font-family: "lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: rgb(80, 80, 80);
+}
+
+.answers {
+  margin-top: 5%;
+}
+
+.contactUs {
+  margin-top: 8%;
+  text-align: center;
+}
+.section-title {
+  font-family: "lato", sans-serif;
+  color: rgb(80, 80, 80);
+  font-size: 2em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 1.8em;
+}
+
+.pub-offre li {
+  font-family: "lato", sans-serif;
+  font-size: 1.3em;
+}
+
+.offre {
+  margin-top: 6%;
+  height: 80vh;
+}
+
+.singleOffre {
+  background-color: rgb(227, 248, 255);
+  margin: 2vh auto 2vh auto;
+  box-shadow: 2px 2px 5px grey;
+  border-radius: 8px;
+  width: 80%;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.folowerscontainer {
+  width: 16%;
+  filter: drop-shadow(2px 2px 2px #222);
+}
+
+.pOffre {
+  width: 20%;
+  text-align: center;
+}

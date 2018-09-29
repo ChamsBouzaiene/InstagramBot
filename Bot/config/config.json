@@ -1,0 +1,41 @@
+{
+  "username": "snippiter",
+  "password": "123456nassri",
+  "hashtags": [
+    "love",
+    "fashion",
+    "happy",
+    "cute",
+    "followme",
+    "selfie",
+    "tunisia",
+    "follow4follow",
+    "instagood",
+    "instamood",
+    "art",
+    "photography",
+    "picoftheday"
+  ],
+  "settings": {
+    "run_every_x_hours": 1,
+    "like_ratio": 0.65,
+    "follow_ratio": 0.25,
+    "do_unfollows": true,
+    "unfollow_after_days": 2,
+    "headless": false
+  },
+  "selectors": {
+    "home_to_login_button": ".izU2O a",
+    "username_field": "input[type=\"text\"]",
+    "password_field": "input[type=\"password\"]",
+    "login_button": ".oF4XW",
+    "post_heart_grey": "span.glyphsSpriteHeart__outline__24__grey_9",
+    "post_username": "div.e1e1d > a",
+    "post_follow_link": ".oW_lN",
+    "post_like_button": "span.fr66n > button",
+    "post_follow_button": ".oW_lN",
+    "post_close_button": "button.ckWGn",
+    "user_unfollow_button": "span > button",
+    "user_unfollow_confirm_button": "div.mt3GC > button.aOOlW.-Cab_"
+  }
+}

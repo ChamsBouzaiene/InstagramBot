@@ -1,0 +1,42 @@
+@keyframes slideInFromRigth {
+  0% {
+    transform: translateX(4%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.signuplogin {
+  width: 70%;
+  background-color: rgba(255, 255, 255, 0.74);
+  padding: 3% 3%;
+  border-radius: 1em;
+  box-shadow: 2px 3px 10px 2px rgba(27, 6, 6, 0.41);
+  margin-left: 5%;
+  margin-top: 2%;
+  animation: 0.3s ease-out 0s 1 slideInFromRigth;
+}
+
+.firs-last-name {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(78, 119, 255);
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1.6em;
+  text-align: center;
+  margin-top: 0;
+}
+.sign-notification {
+  font-size: 0.9em;
+  font-weight: 300;
+  font-family: "Ubuntu", sans-serif;
+}

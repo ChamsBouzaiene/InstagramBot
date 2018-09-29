@@ -1,0 +1,51 @@
+@keyframes scale-up-center {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.contactmain {
+  width: 60%;
+  height: 85vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5vh;
+  animation: scale-up-center 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.3);
+}
+
+.contactLogo {
+  background-image: linear-gradient(180deg, #ff7d78, #9158f5);
+  border-radius: 20px 20px 0px 0px;
+  height: 22vh;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.contactLogo h3 {
+  text-align: left;
+  margin-top: 4%;
+}
+.contactLogo p {
+  font-size: 1.4em;
+  font-family: "Lobster", sans-serif;
+  font-weight: 300;
+}
+.contact-logo {
+  margin-top: 15%;
+  margin-left: 15%;
+  color: white;
+  font-size: 17vh;
+}
+
+.contactForm {
+  border-radius: 0px 0px 20px 20px;
+  background-color: white;
+  height: 60vh;
+  padding: 3vw 4vw 0vw 4vw;
+}
+
+.textarea-container {
+  padding-right: 1.01vw;
+}

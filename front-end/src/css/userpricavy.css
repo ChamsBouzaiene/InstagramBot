@@ -1,0 +1,32 @@
+.userMaincontainer {
+  width: 99%;
+  height: 99vh;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.termuse,
+.privacy {
+  width: 49.7%;
+  height: 99vh;
+}
+.termuserContainer,
+.privacyContainer {
+  padding: 1.3vw;
+  width: 90%;
+  height: 90vh;
+  background-color: rgba(255, 255, 255, 0.74);
+  border-radius: 1em;
+  box-shadow: 2px 3px 10px 2px rgba(27, 6, 6, 0.41);
+  margin: 2vh auto;
+}
+div h3 {
+  font-family: "Josefin Sans", sans-serif;
+  text-shadow: 1px 1px 2px grey;
+  font-size: 2.5vw;
+}
+
+div p {
+  text-align: justify;
+}

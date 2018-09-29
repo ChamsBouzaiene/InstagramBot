@@ -1,0 +1,90 @@
+.mainContainer {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.personalInfo {
+  margin-top: 9%;
+  border-radius: 80px 20px 20px 80px;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 242, 0.445);
+  box-shadow: 2px 2px 24px -5px rgba(59, 59, 59, 1);
+}
+
+.perso-item {
+  width: 24.8%;
+  height: 100%;
+  text-align: center;
+}
+
+.avatar {
+  border-radius: 50%;
+  height: 150%;
+  width: 20%;
+  box-shadow: 2px 2px 24px -5px rgba(59, 59, 59, 1);
+}
+
+.perso-item h3 {
+  margin-top: 1.3vw;
+  margin-bottom: 0.8vw;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2vw;
+  text-shadow: 2px 2px 5px grey;
+}
+.perso-item h2 {
+  font-family: "Lobster", sans-serif;
+  font-size: 3.5vw;
+  margin-top: 0px;
+}
+
+.fas {
+  color: rgba(187, 119, 164, 0.788);
+  margin-right: 15px;
+}
+
+.progression {
+  margin-top: 9%;
+  border-radius: 20px 80px 80px 20px;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(255, 255, 242, 0.445);
+  box-shadow: 2px 2px 24px -5px rgba(59, 59, 59, 1);
+}
+.CircularProgressbar-path {
+  stroke: red;
+}
+.CircularProgressbar-trail {
+  stroke: gray;
+}
+.CircularProgressbar-text {
+  fill: yellow;
+}
+.CircularProgressbar-background {
+  fill: green;
+}
+
+.prog-item h2 {
+  font-family: "Lobster", sans-serif;
+  font-size: 3.5vw;
+  margin: 5px;
+}
+.prog-item h3 {
+  font-family: "lato", sans-serif;
+  color: rgb(80, 80, 80);
+  letter-spacing: 2px;
+  line-height: 1.8em;
+  margin: 5px;
+}
+.prog-item {
+  text-align: center;
+}

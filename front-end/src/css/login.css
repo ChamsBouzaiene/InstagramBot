@@ -1,0 +1,45 @@
+@keyframes slideInFromRigth {
+  0% {
+    transform: translateX(4%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.logincontainer {
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.74);
+  padding: 8%;
+  border-radius: 1em;
+  box-shadow: 2px 3px 10px 2px rgba(27, 6, 6, 0.41);
+  margin-left: 10%;
+  margin-top: 10%;
+  animation: 0.3s ease-out 0s 1 slideInFromRigth;
+}
+.forgetpassword {
+  font-size: 0.6em;
+  margin-left: 1.4rem;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.signin {
+  font-size: 0.7em;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+}
+.signin a {
+  text-decoration: none;
+}
+a {
+  color: rgb(78, 119, 255);
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+
+.buton-link-container {
+  margin-top: 10%;
+}

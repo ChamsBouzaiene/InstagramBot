@@ -1,0 +1,110 @@
+@keyframes colorchange {
+  0% {
+    color: #8a3ab9;
+  }
+  18% {
+    color: #4c68d7;
+  }
+  38% {
+    color: #cd486b;
+  }
+  46% {
+    color: #fbad50;
+  }
+  64% {
+    color: #fccc63;
+  }
+  82% {
+    color: #bc2a8d;
+  }
+  100% {
+    color: #e95950;
+  }
+}
+
+@keyframes slideInFromRigth {
+  0% {
+    transform: translateX(10%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes text-focus-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+.welcomepage-container {
+  text-align: center;
+  padding: 8%;
+}
+
+h1 {
+  font-size: 5.8vw;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  text-shadow: 2px 2px 10px black;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) 0.5s;
+  margin-bottom: 0%;
+}
+
+.instagramlogo {
+  font-family: "Lobster", cursive;
+  font-weight: 300;
+  animation: colorchange 20s infinite alternate;
+}
+
+.spesitem {
+  font-family: "Acme", sans-serif;
+  text-align: left;
+  color: white;
+  font-size: 2.6vw;
+  list-style: none;
+  text-shadow: #8a3ab9 0.5px 0.5px 2px;
+  animation: 1s ease-out 0s 1 slideInFromRigth;
+}
+.spesitem li:first-child {
+  margin-left: 3vw;
+}
+.spesitem li:nth-child(2) {
+  margin-left: 3vw;
+}
+.spesitem li:nth-child(3) {
+  margin-left: 3vw;
+}
+
+.welcomepage-main {
+  width: 49%;
+}
+
+.logo-container {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+.welcomepage-main h2 {
+  font-size: 4vw;
+  font-family: "Josefin Sans", sans-serif;
+  padding-left: 10%;
+  color: white;
+  text-shadow: 2px 2px 10px black;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.welcomepage-main li {
+  color: white;
+  font-size: 1.9vw;
+  font-family: "Acme", sans-serif;
+  text-shadow: 3px 3px 3px rgb(0, 0, 0);
+  margin-left: 2%;
+}
